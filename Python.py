@@ -79,3 +79,49 @@
 # elif level_service == "bad":
 #     print("Tip amount: $%.2f" % bad)
 #     print("Total amount $%.2f" % bad_total)
+
+#2 Advanced Tip Calculator
+
+# bill = float(input("Total bill amount: "))
+# level_service = input("Level of service? ")
+# split1 = int(input("Split how many ways? "))
+# good = bill * .20
+# good_total = bill + good
+# good_per_p = good_total/split1
+# fair = bill * .15
+# fair_total = bill + fair
+# fair_per_p = fair_total/split1
+# bad = bill * .10
+# bad_total = bill + bad
+# bad_per_p = bad_total/split1
+# if level_service == "good":
+#     print("Tip amount: $%.2f" % good)
+#     print("Total amount $%.2f" % good_total)
+#     print("Amount per person $%.2f" % good_per_p)
+# elif level_service == "fair":
+#     print("Tip amount: $%.2f" % fair)
+#     print("Total amount $%.2f" % fair_total)
+#     print("Amount per person $%.2f" % fair_per_p)
+# elif level_service == "bad":
+#     print("Tip amount: $%.2f" % bad)
+#     print("Total amount $%.2f" % bad_total)
+#     print("Amount per person $%.2f" % bad_per_p)
+
+
+#3 How many coins?
+
+# number = 0
+# print(f"You have {number} coins.")
+# while (True):
+#     yesorno = input("Do you want another, yes or no?").lower()
+#     if yesorno == "yes":
+#         number += 1
+#         print(f"You have {number} coins.")
+#     elif (yesorno == "no"):
+#         break
+#     else:
+#         print("Invalid Input")
+# print("Bye")
+
+#4 Print a Box
+
