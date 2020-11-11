@@ -55,5 +55,27 @@
 
 
 #6 Celsius to Fahrenheit
+#celsius = int(input('Temperature in C? '))
+#fahrenheit = (celsius * 9/5) + 32
+#print(fahrenheit)
 
+#MEDIUM
+#1 Tip Calculator
 
+# bill = float(input("Total bill amount: "))
+# level_service = input("Level of service? ")
+# good = bill * .20
+# good_total = bill + good
+# fair = bill * .15
+# fair_total = bill + fair
+# bad = bill * .10
+# bad_total = bill + bad
+# if level_service == "good":
+#     print("Tip amount: $%.2f" % good)
+#     print("Total amount $%.2f" % good_total)
+# elif level_service == "fair":
+#     print("Tip amount: $%.2f" % fair)
+#     print("Total amount $%.2f" % fair_total)
+# elif level_service == "bad":
+#     print("Tip amount: $%.2f" % bad)
+#     print("Total amount $%.2f" % bad_total)
