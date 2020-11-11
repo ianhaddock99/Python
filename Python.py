@@ -59,6 +59,21 @@
 #fahrenheit = (celsius * 9/5) + 32
 #print(fahrenheit)
 
+#7 Looping from 1 to 10
+# count = 0
+# while(count < 10):
+#     count += 1
+#     print(count)
+
+#8 n to m
+# start = int(input("Start from: "))
+# end = int(input("End at: "))
+# for x in range(start, end + 1):
+#     print(x)
+
+
+
+
 #MEDIUM
 #1 Tip Calculator
 
