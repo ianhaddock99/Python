@@ -161,3 +161,18 @@
 # for i in range(1,11):
 #     for j in range(1,11):
 #         print(i,"*",j,"=",i*j)
+
+
+#THURSDAY HOMEWORK MEDIUM
+
+#1 Multiply Vectors
+
+# list1 = [2, 4, 5]
+# list2 = [2, 3, 6]
+# c=[]
+
+# for i in range(0, len(list1)):
+#     c.append(list1[i]*list2[i])
+# print(c)
+
+#2 
