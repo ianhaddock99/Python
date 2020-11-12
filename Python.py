@@ -140,3 +140,14 @@
 
 #4 Print a Box
 
+
+#5 Print a Triangle
+# j = 9 #spaces
+# for i in range(1,8,2):  #1 star up to 8 increment by 2
+#     print(" "*j+i*"*")
+#     j=j-1 #subtract 1 space from each row
+
+#6
+# for i in range(1,11):
+#     for j in range(1,11):
+#         print(i,"*",j,"=",i*j)
