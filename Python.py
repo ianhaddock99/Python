@@ -197,9 +197,6 @@
 # for r in result:
 #     print(r)
 
-#3 Matrix Addition with different matrix sizes
-
-
 
 #4 Remove duplicates from list
 # oldlist = [1,1,2,2,3,4,4,5,5]
@@ -235,15 +232,12 @@
 
 #6 Long-long vowels
 
-# word = input("Enter a word")
+# letter = input("Enter a word")
 
-# word = word.replace('aa', 'aaaaa')
-# word = word.replace('ee', 'eeeee')
-# word = word.replace('ii', 'iiiii')
-# word = word.replace('oo', 'ooooo')
-# word = word.replace('uu', 'uuuuu')
-# print(word)
+# letter = letter.replace('aa', 'aaaaa')
+# letter = letter.replace('ee', 'eeeee')
+# letter = letter.replace('ii', 'iiiii')
+# letter = letter.replace('oo', 'ooooo')
+# letter = letter.replace('uu', 'uuuuu')
 
-#7 Caesar Cipher
-
-
+# print(letter)
