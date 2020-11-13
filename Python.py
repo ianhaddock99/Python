@@ -175,4 +175,75 @@
 #     c.append(list1[i]*list2[i])
 # print(c)
 
-#2 
+#2 Matrix Addition
+
+# X = [[12,7,3],
+#     [4 ,5,6],
+#     [7 ,8,9]]
+
+# Y = [[5,8,1],
+#     [6,7,3],
+#     [4,5,9]]
+
+# result = [[0,0,0],
+#          [0,0,0],
+#          [0,0,0]]
+
+
+# for i in range(len(X)):
+#     for j in range(len(X[0])):
+#         result[i][j]=(X[i][j] + Y[i][j])
+
+# for r in result:
+#     print(r)
+
+#3 Matrix Addition with different matrix sizes
+
+
+
+#4 Remove duplicates from list
+# oldlist = [1,1,2,2,3,4,4,5,5]
+# newlist = []
+
+# for i in oldlist:  
+#     if i not in newlist: # if any elements not in oldlist add them
+#         newlist.append(i) 
+# print(newlist)
+
+#5 Leet speak translator
+# string = input('Enter some text: ').upper()
+
+# for char in string:
+# 	if char == 'A':
+# 		string = string.replace('A','4')
+# 	elif char == 'G':
+# 		string = string.replace('G','6')
+# 	elif char == 'E':
+# 		string = string.replace('E','3')
+# 	elif char == 'I':
+# 		string = string.replace('I','1')
+# 	elif char == 'O':
+# 		string = string.replace('O','0')
+# 	elif char == 'S': 
+# 		string = string.replace('S','5')
+# 	elif char == 'T':
+# 		string = string.replace('T','7')
+# 	else:
+# 		pass
+
+# print(string)
+
+#6 Long-long vowels
+
+# word = input("Enter a word")
+
+# word = word.replace('aa', 'aaaaa')
+# word = word.replace('ee', 'eeeee')
+# word = word.replace('ii', 'iiiii')
+# word = word.replace('oo', 'ooooo')
+# word = word.replace('uu', 'uuuuu')
+# print(word)
+
+#7 Caesar Cipher
+
+
