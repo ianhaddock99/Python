@@ -157,10 +157,71 @@
 #     print(" "*j+i*"*")
 #     j=j-1 #subtract 1 space from each row
 
-#6
+#6 MULTIPLICATION TABLES
 # for i in range(1,11):
 #     for j in range(1,11):
 #         print(i,"*",j,"=",i*j)
+
+#THURSDAY HOMEWORK SMALL
+
+#1 SUM THE NUMBERS
+
+# x = [1,2,3,4]
+# print(sum(x))
+
+#2 LARGEST NUMBER
+
+# x = [1,2,3,4,5]
+
+# print(max(x))
+
+#3 SMALLEST NUMBER
+
+# x = [1,2,3,4,5]
+
+# print(min(x))
+
+#4 EVEN NUMBERS
+
+# oldnum = [1,2,3,4,5]
+
+# for i in oldnum:
+#     if i % 2 == 0: #Divides number in list by 2, if remainder is 0, it is even number
+#         print(i)
+
+#5 POSITIVE NUMBERS
+
+# xs = [-3,-2,-1,0,1,2,3]
+# for i in xs:
+#     if i >= 0:
+#         print(i)
+
+#6 POSITIVE NUMBERS 2
+
+# px = [-3,-2,-1,0,1,2,3]
+# px1 = []
+
+# for i in px:
+#     if i >= 0:
+#         px1.append(i)
+# print(px1)
+
+#7 MULTIPLY LIST BY SINGLE FACTOR
+
+# list1 = [1,2,3,4]
+# list2 = 2
+# list3 = []
+
+# for i in list1:
+#     list3.append(i*list2)
+# print(list3)
+
+#8 REVERSE A STRING
+
+# txt = "Hello World" [::-1] #Slice, start at end of string and end at beginning which is 0 place.
+# print(txt)
+
+
 
 
 #THURSDAY HOMEWORK MEDIUM
