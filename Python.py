@@ -1,3 +1,5 @@
+# SMALL ------------------------------------------------------------
+
 #1. Hello You!
 #name = input("What is your name?")
 #print("Hello " + name + "!")
@@ -74,7 +76,7 @@
 
 
 
-#MEDIUM
+#MEDIUM -----------------------------------------------------------------------------
 #1 Tip Calculator
 
 # bill = float(input("Total bill amount: "))
@@ -162,7 +164,7 @@
 #     for j in range(1,11):
 #         print(i,"*",j,"=",i*j)
 
-#THURSDAY HOMEWORK SMALL
+#THURSDAY HOMEWORK SMALL ---------------------------------------------------------------
 
 #1 SUM THE NUMBERS
 
@@ -223,8 +225,7 @@
 
 
 
-
-#THURSDAY HOMEWORK MEDIUM
+#THURSDAY HOMEWORK MEDIUM -----------------------------------------------------
 
 #1 Multiply Vectors
 
@@ -302,3 +303,84 @@
 # letter = letter.replace('uu', 'uuuuu')
 
 # print(letter)
+
+# SMALL FRIDAY ------------------------------------------------------------------
+
+#1 MADLIB FUNCTION
+
+# def madlib(name, subject):
+
+#     print(f"{name} likes to study {subject}")
+
+# madlib("Ian", "history")
+
+#2 FAHRENHEIT TO CELSIUS CONVERSION
+
+# def celsius(f):
+
+#     return (f - 32) * .5556 #returns value of celsius
+
+# f = int(float(input("Enter a temp in fahrenheit: ")) #input of temp in farhen
+# print(celsius(f)) #call of celsius
+
+#3 CELSIUS TO FAHRENHEIT
+
+# def farhenheit(c):
+
+#     return (c*9/5) + 32 #returns value of farhenheit
+
+# c = int(float(input("Enter a temp in celsius: "))) #input of temp in celsius
+# print(farhenheit(c))
+
+#4 EVEN FUNCTION
+
+# def is_even():
+#     if x % 2 == 0:
+#         return True
+#     else:
+#         return False
+
+# x = int(input("Enter a number: "))
+# print(is_even())
+
+#5 ODD FUNCTION
+
+# def is_even():
+#     if x % 2 == 0:
+#         return True
+#     else:
+#         return False
+
+# def is_odd():
+#     if not is_even():
+#         return True
+#     else:
+#         return False
+
+# x =int(input("Enter a number"))
+# print(is_odd())
+
+#6 ONLY EVENS LISTS #NOT USING OTHER FUNCTION
+
+# def only_evens(list1):
+#     evens = []
+#     for x in list1:
+#         if x % 2 == 0:
+#             evens.append(x)
+#     return evens
+
+# list1 = [11, 20, 42, 97, 23, 10]
+# print(only_evens(list1))
+
+#7 ONLY ODDS LIST
+
+# MEDIUM 
+
+#1 FIND THE SMALLEST NUMBER
+
+# def smallest(x):
+#     print(min(x))
+# smallest([1,2,3,4,5,6])
+
+#2 FIND THE LARGEST NUMBER
+
