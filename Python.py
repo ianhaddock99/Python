@@ -384,3 +384,7 @@
 
 #2 FIND THE LARGEST NUMBER
 
+# def smallest(x):
+#     print(max(x))
+# smallest([1,2,3,4,5,6])
+
