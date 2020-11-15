@@ -332,7 +332,7 @@
 # c = int(float(input("Enter a temp in celsius: "))) #input of temp in celsius
 # print(farhenheit(c))
 
-#4 EVEN FUNCTION
+#4 IS EVEN FUNCTION
 
 # def is_even():
 #     if x % 2 == 0:
@@ -343,7 +343,7 @@
 # x = int(input("Enter a number: "))
 # print(is_even())
 
-#5 ODD FUNCTION
+#5 IS ODD FUNCTION
 
 # def is_even():
 #     if x % 2 == 0:
@@ -362,10 +362,16 @@
 
 #6 ONLY EVENS LISTS #NOT USING OTHER FUNCTION
 
+# def is_even(x):
+#     if x % 2 == 0:
+#         return True
+#     else:
+#         return False
+
 # def only_evens(list1):
 #     evens = []
 #     for x in list1:
-#         if x % 2 == 0:
+#         if is_even(x) != 0:
 #             evens.append(x)
 #     return evens
 
@@ -374,17 +380,61 @@
 
 #7 ONLY ODDS LIST
 
+# def is_even(x):
+#     if x % 2 == 0:
+#         return True
+#     else:
+#         return False
+
+# def is_odd(x):
+#     if not is_even(x):
+#         return True
+#     else:
+#         return False
+
+# def only_evens(list1):
+#     evens = []
+#     for x in list1:
+#         if is_even(x) == 0:
+#             evens.append(x)
+#     return evens
+
+# list1 = [11, 20, 42, 97, 23, 10]
+# print(only_evens(list1))
+
+# x =int(input("Enter a number"))
+# print(is_odd())
+
+
 # MEDIUM 
 
 #1 FIND THE SMALLEST NUMBER
 
 # def smallest(x):
-#     print(min(x))
-# smallest([1,2,3,4,5,6])
+#     x.sort()
+#     print(x[:1])
+# smallest([15,3,21,34,22,6])
 
 #2 FIND THE LARGEST NUMBER
 
-# def smallest(x):
+# def largest(x):
+#     x.sort()
+#     print(x[-1])
+# largest([15,3,21,34,22,6])
+
+
+#3 FIND THE SHORTEST STRING
+
+# def shortest(x):
+#     print(min(x))
+# shortest(["abc","abcd","abcde","abcdef"])
+
+#4 FIND THE LONGEST STRING
+
+# def longest(x):
 #     print(max(x))
-# smallest([1,2,3,4,5,6])
+# longest(["abc","abcd","abcde","abcdef"])
+
+
+
 
