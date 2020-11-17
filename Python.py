@@ -415,12 +415,30 @@
 #     print(x[:1])
 # smallest([15,3,21,34,22,6])
 
+# def smallest(list1):
+#     small = list1[0]
+#     for x in list1:
+#         if x <= small:
+#             small = x
+#     return small
+
+# print(smallest([4,3,2,7,5]))
+
 #2 FIND THE LARGEST NUMBER
 
 # def largest(x):
 #     x.sort()
 #     print(x[-1])
 # largest([15,3,21,34,22,6])
+
+# def largest(list1):
+#     large = list1[0]
+#     for i in list1:
+#         if i > large:
+#             large = i
+#     return large
+
+# print(largest([4,3,2,7,5]))
 
 
 #3 FIND THE SHORTEST STRING
@@ -434,6 +452,10 @@
 # def longest(x):
 #     print(max(x))
 # longest(["abc","abcd","abcde","abcdef"])
+
+
+
+
 
 
 
